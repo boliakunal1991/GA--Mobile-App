@@ -1,0 +1,7 @@
+.txt file
+This is a test
+I hope we can see spaces here
+
+
+
+Through the numerous stages of a supply chain; key factors such as time and supply of order decisions, demand for the supply, lack of communication and disorganization can result in one of the most common problems in supply chain management.  This common problem is known as the bullwhip effect; also sometimes the whiplash effect. In this blog post we will explain this concept and outline some of the contributing factors to this issue.

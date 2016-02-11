@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2DFDB">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView2_timer"
+        android:paddingBottom="7dp"
+
+        android:layout_weight="0" />
+
+    <ScrollView
+        android:id="@+id/scrollview_choices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_below="@id/textView2_timer"
+        android:scrollIndicators="right"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+
+        android:layout_weight="1">
+
+
+       <!-- <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            > -->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2DFDB">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q1"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/textView_q1"
+                android:capitalize="sentences"
+                android:paddingTop="35dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton1_q1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not At All"
+                android:id="@+id/radioButton2_q1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little Bit"
+                android:id="@+id/radioButton3_q1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't Know"
+                android:id="@+id/radioButton4_q1" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q2"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/textView_q2"
+                android:capitalize="sentences" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton1_q2" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not At All"
+                android:id="@+id/radioButton2_q2" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little Bit"
+                android:id="@+id/radioButton3_q2" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't Know"
+                android:id="@+id/radioButton4_q2" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/textView_q3"
+                android:capitalize="sentences" />
+
+            <!-- <RadioGroup
+                 android:layout_width="376dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_vertical"> -->
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton1_q3" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not At All"
+                android:id="@+id/radioButton2_q3" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little Bit"
+                android:id="@+id/radioButton3_q3" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't Know"
+                android:id="@+id/radioButton4_q3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q4"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/textView_q4"
+                android:capitalize="sentences" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton1_q4" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not At All"
+                android:id="@+id/radioButton2_q4" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little Bit"
+                android:id="@+id/radioButton3_q4" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't Know"
+                android:id="@+id/radioButton4_q4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q5"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/textView_q5"
+                android:capitalize="sentences" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton1_q5" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not At All"
+                android:id="@+id/radioButton2_q5" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little Bit"
+                android:id="@+id/radioButton3_q5" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't Know"
+                android:id="@+id/radioButton4_q5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q6"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/textView_q6"
+                android:capitalize="sentences" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton1_q6" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not At All"
+                android:id="@+id/radioButton2_q6" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little Bit"
+                android:id="@+id/radioButton3_q6" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't Know"
+                android:id="@+id/radioButton4_q6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q7"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/textView_q7"
+                android:capitalize="sentences" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton1_q7" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not At All"
+                android:id="@+id/radioButton2_q7" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little Bit"
+                android:id="@+id/radioButton3_q7" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't Know"
+                android:id="@+id/radioButton4_q7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q8"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:id="@+id/textView_q8"
+                android:capitalize="sentences" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton1_q8" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not At All"
+                android:id="@+id/radioButton2_q8" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A little Bit"
+                android:id="@+id/radioButton3_q8" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I don't Know"
+                android:id="@+id/radioButton4_q8" />
+        </LinearLayout>
+        <!--</RadioGroup> -->
+    </ScrollView>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/scrollview_choices"
+
+        android:layout_weight="0">
+
+       <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/button_quiz_back"
+
+
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit!"
+            android:id="@+id/button_submit"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
